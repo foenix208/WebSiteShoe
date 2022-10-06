@@ -1,0 +1,156 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    height:300vh ; 
+}
+.slide{
+
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    width: 80%;
+    height: 55vh;
+    background-color: #f9eac3;
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgS1{
+    height: 70vh;
+    width: 70vh;
+
+    padding: 20px;
+}
+
+.Ts1{
+    font-size: 5rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Ts1>span{
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+.sTs1{
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    font-size: 1.5rem;
+    color: rgb(95, 93, 93);
+}
+.Bs1{
+    font-size: 1.5rem;
+    
+    padding: 20px;
+    border-radius: 40px;
+
+    background-color: black;
+    color: gold;
+}
+
+.sBF{
+    font-size: 3rem;
+    padding: 10px 19px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.49); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.49);
+}
+
+.sB{
+    position: absolute;
+    top: 35%;
+}
+
+.prevew{
+    z-index: 99;
+    right: 9%;
+}
+.next{
+    z-index: 99;
+    left: 9%;
+}
+
+/* ---------------------------------------------------- */
+
+.biblio{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content: center;
+
+    position: absolute;
+    top: 80vh;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.cI1{
+    /* background-color: #bdf1ff; */
+    height: 400px;
+    width: 450px;
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cI1I{
+    transform: rotate(-30deg);
+    height: 400px;
+}
+.cT1{
+    padding-top: 3vh;
+
+    color: black;
+
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cT2{
+    padding-top: 1.5vh;
+    color: red;
+    font-size: 1.5rem;  
+}
+
+.cT2>span{
+    color: black;
+    text-decoration: line-through;
+}
+
+
+@media (max-width: 2073px) { 
+
+    .slide{  
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    }
+    .imgS1{
+        height: 100%;
+    }
+
+    .Ts1{
+        font-size: 100%;
+    }
+ }
