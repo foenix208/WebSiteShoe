@@ -137,20 +137,3 @@ body{
     text-decoration: line-through;
 }
 
-
-@media (max-width: 2073px) { 
-
-    .slide{  
-    height: auto;
-    display: flex;
-    flex-direction: column;
-
-    }
-    .imgS1{
-        height: 100%;
-    }
-
-    .Ts1{
-        font-size: 100%;
-    }
- }
